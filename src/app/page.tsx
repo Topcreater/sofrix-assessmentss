@@ -1,4 +1,3 @@
-import FeaturesSection from "./components/FeaturesSection";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navebar";
@@ -12,7 +11,6 @@ export default function Home() {
       <HeroSection />
       <QrCode />
       <Accounts />
-      {/* <FeaturesSection /> */}
       <Footer />
     </div>
   );
