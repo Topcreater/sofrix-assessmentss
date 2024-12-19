@@ -13,9 +13,9 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="w-full bg-white  relative">
+    <nav className="w-full bg-white  relative z-[999]">
       {/* Mobile Menu Button */}
-      <div className="md:hidden flex justify-end">
+      <div className="md:hidden flex justify-end mr-[4px]">
         <button
           className="text-customBlue focus:outline-none"
           onClick={toggleMenu}
