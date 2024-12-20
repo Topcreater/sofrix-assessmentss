@@ -1,16 +1,16 @@
 import React from "react";
 import { Input, Button, Card } from "antd";
 import Image from "next/image";
-import faces from '../../../public/assets/images/Faces.svg'
-import apple from '../../../public/assets/images/app.png'
-import playStore from '../../../public/assets/images/playstore.png'
+import faces from '../../../../public/assets/images/Faces.svg'
+import apple from '../../../../public/assets/images/app.png'
+import playStore from '../../../../public/assets/images/playstore.png'
 
 const HeroSection = () => {
   return (
     <>
       <div className="bg-white md:py-12 py-8  mb-0 mt-[-1]">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
-          <div className="md:text-left md:w-[45%] flex justify-center flex-col md:ml-16  mx-auto">
+          <div className="md:text-left md:w-[45%] flex justify-center flex-col mx-auto">
             <h1 className="text-customBlue font-bold leading-tight text-2xl md:text-4xl lg:md:text-6xl md:w-1/3 text-center md:text-left">
               FAANG INVESTING COMMUNITY
             </h1>

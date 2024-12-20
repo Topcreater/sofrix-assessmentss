@@ -1,17 +1,9 @@
-import Footer from "./components/Footer";
-import HeroSection from "./components/HeroSection";
-import Navbar from "./components/Navebar";
-import QrCode from "./(pageComponents)/landingPage/qrCode";
-import Accounts from "./(pageComponents)/landingPage/accounts";
 
+import LandingPage from "./landingPage/page";
 export default function Home() {
   return (
     <div className="w-full">
-      <Navbar />
-      <HeroSection />
-      <QrCode />
-      <Accounts />
-      <Footer />
+      <LandingPage />
     </div>
   );
 }
